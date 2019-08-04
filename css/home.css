@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+.header_name{
+    color: #121212;
+    font-size: 50px;
+    padding: 10px;
+    /* position: relative;
+    left: 50%; */
+
+}
+.header_blog{
+    color: blueviolet;
+    font-size: 20px;
+    /* position: relative;
+    left: 50%; */
+
+}
+.header_top{
+    background-color:rgb(123, 255, 0);
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    /* vertical-align: middle; */
+    
+}
+.nav{
+    width: 100%;
+    /* background: #c44e4e; */
+    /* border: #222020 0px solid; */
+    margin:0px auto 0px auto;
+}
+.nav ul li{
+    float: left;
+     list-style-type:none;  /* 去掉li的点 */
+}
+
+.nav ul li a{
+
+    width:80px;/*设置元素宽为80px*/
+
+    height:28px;/*设置高度为28px*/
+
+    line-height:28px;/*设置行距为28px，让文字在每行的中间位置*/
+
+    background:red;/*设置元素的背景为红色*/
+
+    color:#FFF;/*文字颜色是白色*/
+
+    margin:10px 40px;
+
+    font-size:12px;/*用12号字*/
+
+    display:block;
+    text-align:center;/*让文本居中*/
+
+    text-decoration:none; /*去掉下划线*/
+
+}
+.nav ul li a:hover
+{ 
+    /* 获取用户鼠标位置，进行展示 */
+    font-size: 20px;
+    background-color:black;
+}
+
+.content{
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    /* background:red; */
+    /* height: 100%; */
+    max-height:1080px;
+ 
+}
+.four{
+    background-color: wheat;
+    height: 111px;
+}
+.six{
+    background-color: black;
+    height: 111px;
+}
+
+.disPlay{
+    max-height: 300px;
+}
+.static-img{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 15%;
+}
+.trend-img{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 70%;
+}
+.contact{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 15%;  
+    margin-top:  5px;
+}
+
+.contact a{
+    display: block;
+    font-size: 20px;
+    padding-left: 60px;
+    text-decoration:none; /*去掉下划线*/
+}

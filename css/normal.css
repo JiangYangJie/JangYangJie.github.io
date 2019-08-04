@@ -1,0 +1,78 @@
+.clear_float:before,
+.clear_float:after{
+    /* 消除浮动 */
+    content:"."; 
+    display:block; 
+    height:0; 
+    visibility:hidden; 
+    clear:both; 
+}
+
+/* 分栏 */
+.clum-1{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 10%;
+}
+.clum-2{
+     display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 20%;
+}
+.clum-3{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 30%;
+}
+.clum-4{
+     display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 40%;
+}
+.clum-5{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 50%;
+}
+.clum-6{
+     display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 60%;
+}
+.clum-7{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 70%;
+}
+.clum-8{
+     display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 80%;
+}
+.clum-9{
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    width: 90%;
+}
+.clum-1,.clum-2,.clum-3,.clum-4,.clum-5,
+.clum-6,.clum-7,.clum-8,.clum-9:after{
+
+}
